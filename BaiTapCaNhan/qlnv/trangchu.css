@@ -1,0 +1,99 @@
+#bang {
+    margin-left: 100px;
+}
+
+
+/*==Style cơ bản cho website==*/
+
+body {
+    font-family: sans-serif;
+    color: #333;
+}
+
+
+/*==Style cho menu===*/
+
+#menu li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 320px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 50px;
+}
+
+#menu ul {
+    background: linear-gradient(to right, #2f222f, #c435c4);
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+#menu a:hover {
+    background: #F1F1F1;
+    color: #333;
+}
+
+#header {
+    border-bottom: 1px solid #999;
+    height: 80px;
+    margin: 0 auto;
+    width: 751px;
+}
+
+#header h1 {
+    color: #22397a;
+    font-size: 300%;
+    letter-spacing: -3px;
+    text-align: right;
+    padding: 5px;
+    margin-bottom: -20px;
+}
+
+#header h2 {
+    color: #050202;
+    font-size: 200%;
+    letter-spacing: -2px;
+    text-align: right;
+}
+
+
+/* navigation */
+
+
+/* content */
+
+#content {
+    height: auto;
+    margin: 0 auto;
+    padding: 0 0 20px;
+    width: 751px;
+}
+
+#content h1 {
+    border-bottom: 1px dashed #999;
+    font-size: 1.8em;
+    padding: 20px 0 0;
+}
+
+#content p {
+    padding: 20px 20px 0;
+}
+
+
+/* footer */
+
+#footer {
+    border-top: 1px solid #999;
+    height: 50px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    width: 751px;
+}
